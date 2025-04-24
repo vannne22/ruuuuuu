@@ -1,0 +1,34 @@
+iv.gallery {
+  border: 2px solid gold;
+}
+div.gallery:hover {
+  border: 5px solid gold;
+}
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+div.desc {
+}
+div.desc {
+  padding: 10px;
+  text-align: center;
+}
+* {
+  box-sizing: border-box;
+}
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100px;
+  }
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
